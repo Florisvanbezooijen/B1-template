@@ -75,8 +75,19 @@ table{
   width: 100%;
   border-collapse: collapse;
 }
-
-
+.productpage-full{
+  width: 70%;
+  margin: auto;
+}
+.productpage{
+  display: flex;
+}
+.productpage-text{
+  width: 50%;
+}
+.productpage-text span{
+  font-weight: bold;
+}
 table th{
   text-align: start;
 }
