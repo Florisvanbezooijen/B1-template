@@ -76,12 +76,15 @@ table{
   border-collapse: collapse;
 }
 
+
 table th{
   text-align: start;
 }
-
-table thead, table tbody{
-  border-bottom: 1px solid #303030;
+.bottom-line-table{
+  border-bottom: 1px solid black;
+}
+.border-th-table{
+  border-bottom: 1px solid black;
 }
 
 table th.slim{
